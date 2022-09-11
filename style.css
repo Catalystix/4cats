@@ -1,0 +1,26 @@
+header {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    width: 90% ;
+    margin: 40px;
+    border: 5px rgb(5, 2, 0);
+    box-shadow: 50px 20px aquamarine;
+    opacity: 70%;
+}
+.name {
+    color: blue;
+    font-style: oblique;
+    background-color: aquamarine;
+    text-align: center;
+    opacity: 70%;
+}
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(https://content.codecademy.com/courses/learn-css-selectors-visual-rules/hypnotize_bg.png);
+    outline: 50px;
+    text-align: center;
+}
+.bio {
+    color: blue;
+}
