@@ -1,0 +1,64 @@
+header {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    width: 90% ;
+    margin: 40px;
+    border: 5px rgb(5, 2, 0);
+    box-shadow: 50px 20px aquamarine;
+    opacity: 70%;
+}
+
+.name {
+    color: blue;
+    font-style: oblique;
+    background-color: aquamarine;
+    text-align: center;
+    opacity: 70%;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url(https://content.codecademy.com/courses/learn-css-selectors-visual-rules/hypnotize_bg.png);
+    outline: 50px;
+    text-align: center;
+}
+
+.bio {
+    color: blue;
+}
+
+img {
+    height: 175px;
+    width: 150px;
+    border: 10px solid aquamarine;
+    padding: 20px 30px;
+    margin: 10px solid black;
+    border-radius: 15px;
+    
+}
+
+.toys .treats {
+    font-style: italic;
+    color: palevioletred;
+}
+li {
+    list-style-position: inside;
+   color: black;
+   width: 200px;
+}
+
+h3 { border: 1px dotted red;
+    color: red;
+    font-size: 25px;
+    font-style: oblique;
+    line-height: 48px;
+    padding: 20px 30px;
+    margin: 30px 20px;
+    text-align: center;
+    margin: 10px auto
+}
+.list-container {
+    display: flex;
+    justify-content: space-evenly;
+}
