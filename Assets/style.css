@@ -35,12 +35,18 @@ img {
     padding: 20px 30px;
     margin: 10px solid black;
     border-radius: 15px;
-    
+    transition: all 0.9s linear;
+    cursor: pointer;
+    filter: grayscale(50%)  
+}
+img:hover {
+    filter: grayscale(0%);
+    transform: scale(1.01%);
 }
 
-.toys .treats {
+.toys, .treats {
     font-style: italic;
-    color: palevioletred;
+    color: rgb(240, 87, 138);
 }
 li {
     list-style-position: inside;
